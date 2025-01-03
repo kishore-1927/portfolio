@@ -50,12 +50,18 @@ export default function Contact() {
         <div className='col-md-6 col-12'>
           <form onSubmit={onSubmit}>
         <div className=" contact-right gap-5">
-          <label htmlFor="name">Name</label>
-          <input className='w-75' type="text" name="name" id=""  placeholder='Enter Your name'/>
+        <div className='d-flex w-100 label-div'>
+          <label htmlFor="name ">Name</label>
+          <input className='ps-4'  type="text" name="name" id=""  placeholder='Enter Your name'/>
+          </div>
+          <div className='label-div w-100'>
           <label htmlFor="email">Email</label>
-          <input className='w-75' type="email" name="email" id="" placeholder='Enter your email'/>
+          <input className='ps-4' type="email" name="email" id="" placeholder='Enter your email'/>
+          </div>
+          <div className='label-div w-100'>
           <label htmlFor="message">message here</label>
-          <input className='w-75 contact-message' type="text" name="message" id="" placeholder='Enter your Message here'/>
+          <input className='ps-4 contact-message' type="text" name="message" id="" placeholder='Enter your Message here'/>
+          </div>
           <button className='w-25'>Send</button>
         </div>
           </form>
