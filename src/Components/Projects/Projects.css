@@ -1,0 +1,24 @@
+
+.projects .row{
+    justify-content: center;
+}
+.projects .card{
+    border: white;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.projects .card-text{
+    color: black;
+    font-size: 14px;
+    text-align: start;
+}
+.projects .card:hover{
+    transform: scale(1.05);
+    transition: .5s;
+    border: 2px solid  #ab00fa;
+    box-shadow: 3px 3px 15px #ab00fa;
+}
+.projects .card img:hover{
+        transform: scale(1.2);
+        transition: .5s;
+}

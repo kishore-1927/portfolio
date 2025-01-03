@@ -1,0 +1,22 @@
+.education {
+    color: white;
+}
+.education .col-12:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+.education .row{
+    justify-content: center;
+}
+.education h1{
+    text-align: center;
+    font-size: 40px;
+    font-size: 600;
+}
+.education h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.education p {
+    font-size: 18px;
+}

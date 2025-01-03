@@ -1,0 +1,56 @@
+*{
+    color: white;
+}
+.about{
+    align-items: center;
+    text-align: center;
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-img{
+    border: 2px solid red;
+}
+.about h1{
+    font-weight: 800;
+    font-size: 40px;
+}
+.about p{
+    font-size: 16px;
+}
+.about .content{
+    display: flex;
+    flex-direction: column;
+}
+.skills{
+    text-align: start;
+}
+.skill{
+    display: flex;
+    gap: 50px;
+}
+.skill:hover{
+    transform: scale(1.05);
+    transition: .3s;
+}
+.skills hr{
+    outline: none;
+    border: none;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #ab00fa 106.28%);
+    border-radius: 20px;
+    width: 50%;
+    height: 8px;
+}
+
+.achievement .card{
+    background: transparent;
+    border: none;
+}
+.achievement .card:hover{
+    border: 1px solid  #ab00fa;
+    /* border-color: linear-gradient(264deg, #DF8908 -5.09%, #ab00fa 106.28%); */
+    transform: scale(1.05);
+    transition: .5s;
+}
