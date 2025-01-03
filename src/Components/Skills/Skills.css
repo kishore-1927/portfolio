@@ -1,3 +1,14 @@
-.skills{
+.skills-btm{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-btm{
+    background-color: grey;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    align-content: center;
+
 }
