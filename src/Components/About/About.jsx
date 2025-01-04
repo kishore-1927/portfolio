@@ -11,13 +11,14 @@ export default function About() {
           <img className='about-img' src="" alt="" />
         </div>
         <div className="col-md-6 col-12 content">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, nemo exercitationem? Molestiae, sunt facilis quis porro eius nulla earum quo perferendis doloribus inventore exercitationem natus labore amet maxime minima nostrum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi laudantium corrupti ipsum hic aliquid optio corporis, atque vitae consectetur sint at nesciunt quae quisquam illum a reprehenderit temporibus voluptatum dicta.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, harum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, accusamus!</p>
+          <p>I am Kishore Kumar, an enthusiastic and skilled full-stack developer with a Bachelor’s degree in Computer Science. I have hands-on experience in building functional web applications, including developing an e-commerce platform using React.js and a full-stack online movie ticket booking system with PHP and MySQL. With expertise in HTML, CSS, JavaScript, and React, I bring a strong foundation in front-end and back-end technologies. My internship in Python development allowed me to enhance my skills in automation and debugging. I am passionate about creating efficient, responsive, and user-friendly applications while continually expanding my technical knowledge.</p>
+          <p> I have experience building dynamic web applications, and am eager to contribute to innovative projects while enhancing my skills.</p>
           <div className="skills mt-5">
-            <div className='skill'><p>HTML/CSS</p><hr style={{ width: "50%" }} /></div>
-            <div className='skill'><p>HTML/CSS</p><hr style={{ width: "70%" }} /></div>
-            <div className='skill'><p>HTML/CSS</p><hr style={{ width: "80%" }} /></div>
-            <div className='skill'><p>HTML/CSS</p><hr style={{ width: "20%" }} /></div>
+            <div className='skill'><p>JAVA</p><hr style={{ width: "50%" }} /></div>
+            <div className='skill'><p>REACT</p><hr style={{ width: "70%" }} /></div>
+            <div className='skill'><p>JAVASCRIPT</p><hr style={{ width: "70%" }} /></div>
+            <div className='skill'><p>BOOTSTRAP</p><hr style={{ width: "80%" }} /></div>
+            <div className='skill'><p>HTML/CSS</p><hr style={{ width: "90%" }} /></div>
           </div>
           
         </div>

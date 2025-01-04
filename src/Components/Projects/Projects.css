@@ -2,10 +2,24 @@
 .projects .row{
     justify-content: center;
 }
+.projects h1{
+    text-align: center;
+    font-size: 40px;
+    font-size: 600;
+}
 .projects .card{
     border: white;
     overflow: hidden;
     border-radius: 30px;
+}
+.projects .card a{
+    text-decoration: none;
+    color: black;
+   
+}
+.card-link{
+    font-size: 15px;
+    font-weight: 900;
 }
 .projects .card-text{
     color: black;

@@ -29,43 +29,49 @@ export default function Contact() {
     }
   };
   return (
-    <div id='contact' className='contact container mt-5'>
+    <div id='contact' className='contact container'>
       <h1>Contact me</h1>
-      <div className="row mt-5">
-        <div className="col-md-6 col-12 text-start">
+      <div className="row">
+        <div className="col-md-6 col-12 contact-left text-start">
           <div className='d-flex gap-3'>
-          <img width="20" height="20" src="https://img.icons8.com/ios-filled/20/FFFFFF/incoming-call.png" alt="incoming-call"/>
-          <p>27923742397</p>
+            <img width="25" height="25" src="https://img.icons8.com/ios-filled/20/FFFFFF/incoming-call.png" alt="incoming-call" />
+            <p>+91 96550 94620</p>
           </div>
           <div className='d-flex gap-3'>
-          <img width="20" height="20" src="https://img.icons8.com/ios-filled/20/FFFFFF/marker.png" alt="marker"/>
-          <p>Coimbatore, Tamilnadu</p>
+            <img width="25" height="25" src="https://img.icons8.com/ios-filled/20/FFFFFF/marker.png" alt="marker" />
+            <p>Coimbatore, Tamilnadu</p>
           </div>
           <div className="d-flex gap-3">
-          <img width="20" height="20" src="https://img.icons8.com/material-rounded/20/FFFFFF/new-post.png" alt="new-post"/>
-          <p>Kishoreanand2846@gmail.com</p>
+            <img width="25" height="25" src="https://img.icons8.com/material-rounded/20/FFFFFF/new-post.png" alt="new-post" />
+            <p>Kishoreanand2846@gmail.com</p>
+          </div>
+
+          <div className="profiles">
+            <a href="https://www.linkedin.com/in/kishore-kumar-a-b4a268218/"><img width="50" height="50" src="https://img.icons8.com/color/100/linkedin.png" alt="linkedin"/></a>
+            <a href="https://github.com/kishore-1927  "><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/github.png" alt="github"/></a>
           </div>
 
         </div>
         <div className='col-md-6 col-12'>
           <form onSubmit={onSubmit}>
-        <div className=" contact-right gap-5">
-        <div className='d-flex w-100 label-div'>
-          <label htmlFor="name ">Name</label>
-          <input className='ps-4'  type="text" name="name" id=""  placeholder='Enter Your name'/>
-          </div>
-          <div className='label-div w-100'>
-          <label htmlFor="email">Email</label>
-          <input className='ps-4' type="email" name="email" id="" placeholder='Enter your email'/>
-          </div>
-          <div className='label-div w-100'>
-          <label htmlFor="message">message here</label>
-          <input className='ps-4 contact-message' type="text" name="message" id="" placeholder='Enter your Message here'/>
-          </div>
-          <button className='w-25'>Send</button>
-        </div>
+            <div className=" contact-right gap-5">
+              <div className='d-flex w-100 label-div'>
+                <label htmlFor="name ">Name</label>
+                <input className='ps-4' type="text" name="name" id="" placeholder='Enter Your name' />
+              </div>
+              <div className='label-div w-100'>
+                <label htmlFor="email">Email</label>
+                <input className='ps-4' type="email" name="email" id="" placeholder='Enter your email' />
+              </div>
+              <div className='label-div w-100'>
+                <label htmlFor="message">message here</label>
+                <input className='ps-4 contact-message' type="text" name="message" id="" placeholder='Enter your Message here' />
+              </div>
+              <button className='w-25'>Send</button>
+            </div>
           </form>
-          </div>
+        </div>
+
       </div>
     </div>
   )

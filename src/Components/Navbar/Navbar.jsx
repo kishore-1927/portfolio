@@ -25,11 +25,13 @@ export default function Navbar() {
               <li><AnchorLink className='nav-item' offset={50} href='#about'>About</AnchorLink> </li>
               <li><AnchorLink className='nav-item' offset={50} href='#education'>Education</AnchorLink> </li>
               <li><AnchorLink className='nav-item' offset={50} href='#projects'>Projects</AnchorLink> </li>
+              <li><AnchorLink className='nav-item' offset={50} href='#skills'>Skills</AnchorLink> </li>
               <li><AnchorLink className='nav-item' offset={50} href='#contact'>Contact</AnchorLink> </li>
             </ul>
           </div>
           <div className='connect'>
-            <button>Connect with me</button>
+            <AnchorLink href='#contact'><button>Connect with me</button></AnchorLink>
+            
           </div>
        </div>
     </div>
