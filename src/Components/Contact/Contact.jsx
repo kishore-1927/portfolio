@@ -31,7 +31,7 @@ export default function Contact() {
   return (
     <div id='contact' className='contact container'>
       <h1>Contact me</h1>
-      <div className="row">
+      <div className="row container">
         <div className="col-md-6 col-12 contact-left text-start">
           <div className='d-flex gap-3'>
             <img width="25" height="25" src="https://img.icons8.com/ios-filled/20/FFFFFF/incoming-call.png" alt="incoming-call" />
@@ -55,6 +55,7 @@ export default function Contact() {
         <div className='col-md-6 col-12'>
           <form onSubmit={onSubmit}>
             <div className=" contact-right gap-5">
+              <h2>Let's Talk</h2>
               <div className='d-flex w-100 label-div'>
                 <label htmlFor="name ">Name</label>
                 <input className='ps-4' type="text" name="name" id="" placeholder='Enter Your name' />
@@ -65,7 +66,7 @@ export default function Contact() {
               </div>
               <div className='label-div w-100'>
                 <label htmlFor="message">message here</label>
-                <input className='ps-4 contact-message' type="text" name="message" id="" placeholder='Enter your Message here' />
+                <textarea className='p-4 contact-message' type="text" name="message" id="" placeholder='Enter your Message here' />
               </div>
               <button className='w-25'>Send</button>
             </div>

@@ -5,8 +5,8 @@
 }
 .contact h1{
     text-align: center;
-    font-size: 40px;
-    font-size: 600;
+    font-size: 50px;
+    font-weight: 600;
 }
 .contact .row{
     margin-top: 100px;
@@ -51,4 +51,6 @@
 }
 .contact-message{
     height: 100px !important;
+    color: black;
+    border-radius: 20px;
 }

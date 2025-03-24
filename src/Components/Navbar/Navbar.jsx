@@ -10,7 +10,7 @@ export default function Navbar() {
   }
   function navClose(){
       menuRef.current.style.right="-350px";
-  }
+  }   
   return (
     <div className='navbar'>
        <div className='nav-content container d-flex justify-content-between'>

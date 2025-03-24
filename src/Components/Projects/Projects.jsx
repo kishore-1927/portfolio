@@ -12,51 +12,22 @@ export default function Projects() {
                     <img class="card-img" src={project1} alt="Card image cap" />
                     <div class="card-body">
                         {/* <h5 class="card-title">Card title</h5> */}
-                        <div className="card-text">aut praesentium, voluptas magnam sunt molestias sapiente odio. A, mollitia vel.</div>
+                        <div className="card-text">Designed and developed a partially functional ecommerce website using React.js.</div>
                         <a className='card-link' href="https://website-blush-alpha.vercel.app/home">see project</a>
                     </div>
                     </a>
                 </div>
                 <div class="card col-md-3 col-12">
+                    <a href="https://website-blush-alpha.vercel.app/home">
                     <img class="card-img" src={project1} alt="Card image cap" />
                     <div class="card-body">
                         {/* <h5 class="card-title">Card title</h5> */}
-                        <div className="card-text">aut praesentium, voluptas magnam sunt molestias sapiente odio. A, mollitia vel.</div>
-                        <a href="">see project</a>
+                        <div className="card-text">Designed and developed a partially functional ecommerce website using React.js.</div>
+                        <a className='card-link' href="https://website-blush-alpha.vercel.app/home">see project</a>
                     </div>
+                    </a>
                 </div>
-                <div class="card col-md-3 col-12">
-                    <img class="card-img" src={project1} alt="Card image cap" />
-                    <div class="card-body">
-                        {/* <h5 class="card-title">Card title</h5> */}
-                        <div className="card-text">aut praesentium, voluptas magnam sunt molestias sapiente odio. A, mollitia vel.</div>
-                        <a href="">see project</a>
-                    </div>
-                </div>
-                <div class="card col-md-3 col-12">
-                    <img class="card-img" src={project1} alt="Card image cap" />
-                    <div class="card-body">
-                        {/* <h5 class="card-title">Card title</h5> */}
-                        <div className="card-text">aut praesentium, voluptas magnam sunt molestias sapiente odio. A, mollitia vel.</div>
-                        <a href="">see project</a>
-                    </div>
-                </div>
-                <div class="card col-md-3 col-12">
-                    <img class="card-img" src={project1} alt="Card image cap" />
-                    <div class="card-body">
-                        {/* <h5 class="card-title">Card title</h5> */}
-                        <div className="card-text">aut praesentium, voluptas magnam sunt molestias sapiente odio. A, mollitia vel.</div>
-                        <a href="">see project</a>
-                    </div>
-                </div>
-                <div class="card col-md-3 col-12">
-                    <img class="card-img" src={project1} alt="Card image cap" />
-                    <div class="card-body mt-3">
-                        {/* <h5 class="card-title">Card title</h5> */}
-                        <div className="card-text">aut praesentium, voluptas magnam sunt molestias sapiente odio. A, mollitia vel.</div>
-                        <a href="">see project</a>
-                    </div>
-                </div>
+                
             </div>
         </div>
     )
