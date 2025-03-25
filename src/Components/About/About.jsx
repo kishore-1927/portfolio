@@ -1,14 +1,15 @@
 import React from 'react'
 import './About.css'
-import pic from '../Images/pic-no-bg.png'
+import pic from '../Images/secondpic.jpg'
+
 
 export default function About() {
   return (
     <div id='about' className='container about pt-5'>
       <div className='row mb-5'>
         <h1 className='mt-5 mb-5'>About me</h1>
-        <div className="col-md-6 col-12">
-          <img className='about-img' src="" alt="" />
+        <div className="col-md-6 about-left col-12">
+          <img className='about-img' src={pic} alt="" />
         </div>
         <div className="col-md-6 col-12 content">
           <p>I am Kishore Kumar, an enthusiastic and skilled full-stack developer with a Bachelor’s degree in Computer Science. I have hands-on experience in building functional web applications, including developing an e-commerce platform using React.js and a full-stack online movie ticket booking system with PHP and MySQL. With expertise in HTML, CSS, JavaScript, and React, I bring a strong foundation in front-end and back-end technologies. My internship in Python development allowed me to enhance my skills in automation and debugging. I am passionate about creating efficient, responsive, and user-friendly applications while continually expanding my technical knowledge.</p>
