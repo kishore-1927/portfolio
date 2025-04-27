@@ -3,6 +3,7 @@ import './About.css'
 import pic from '../Images/secondpic.jpg'
 
 
+
 export default function About() {
   return (
     <div id='about' className='container about pt-5'>
